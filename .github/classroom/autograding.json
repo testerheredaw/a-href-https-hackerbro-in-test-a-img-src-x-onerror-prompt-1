@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "&#60;a href&#61;&#34;https&#58;&#47;&#47;hackerbro.in&#34;&#62;clickhere&#60;&#47;a&#62;",
+      "setup": "\"><img src=\"x\" onerror=\"prompt(1);\">",
+      "run": "\"><img src=\"x\" onerror=\"prompt(1);\">",
+      "input": "\"><img src=\"x\" onerror=\"prompt(1);\">",
+      "output": "\"><img src=\"x\" onerror=\"prompt(1);\">",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
